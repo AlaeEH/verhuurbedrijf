@@ -1,0 +1,52 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import 'popup';
+
+#showHeader	{
+    font-size: 300%;
+}
+
+#showImage {
+	float: left;
+	width: 43%;
+	border-radius: 8px;
+	margin-right: 10px;
+}
+
+#price {
+	float: left;
+	font-size: 150%;
+}
+
+#addToCart {
+	width: 20%;
+	float: right;
+}
+
+body {
+	background-color: #F2F2F2;
+}
+
+// #quality {
+// 	opacity: 0.5;
+// 	filter: Alpha(opacity=50);
+// 	background-color: green;
+// }
+
+#kleineFoto {
+	width: 100%;
+}
+#kleineFoto1 {
+	width: 80%;
+}
+#kleineFoto2 {
+	width: 80%;
+}
